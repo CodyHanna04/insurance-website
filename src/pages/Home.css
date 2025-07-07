@@ -1,0 +1,63 @@
+.home-container {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+.hero {
+  background: linear-gradient(to right, #87ceeb, #cceeff);
+  padding: 4rem 2rem;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #003366;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  background-color: #005f99;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #004f80;
+}
+
+.info-section {
+  margin-top: 4rem;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.info-section h2 {
+  color: #005f99;
+}
+
+.info-section ul {
+  margin-top: 1rem;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.info-section li {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}

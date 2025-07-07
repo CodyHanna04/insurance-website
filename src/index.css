@@ -1,0 +1,23 @@
+/* Apply a sky blue theme with white content areas */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e6f7ff; /* soft sky blue */
+  font-family: Arial, sans-serif;
+  color: #333;
+  min-height: 100vh;
+}
+
+/* Remove default input styles */
+input, textarea, select, button {
+  font-family: inherit;
+  font-size: 1rem;
+  outline: none;
+}
+
+/* Center all root pages */
+.page-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
