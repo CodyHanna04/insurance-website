@@ -1,0 +1,29 @@
+.page-container h2 {
+  color: #003366;
+  margin-bottom: 1rem;
+}
+
+.client-policies-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.client-policies-table th,
+.client-policies-table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.client-policies-table th {
+  background-color: #005f99;
+  color: white;
+}
+
+.client-policies-table tr:hover {
+  background-color: rgba(0, 95, 153, 0.1);
+}
+
+.client-policies-table td {
+  color: #333;
+}

@@ -1,0 +1,67 @@
+/* src/pages/AdminDashboard.css */
+
+.page-container h2 {
+  color: #003366;
+  margin-bottom: 1rem;
+}
+
+.requests,
+.manual-add {
+  background: #ffffff;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.requests ul {
+  list-style: none;
+  padding: 0;
+}
+
+.requests li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.requests button,
+.manual-add button {
+  background-color: #005f99;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.requests button:hover,
+.manual-add button:hover {
+  background-color: #004f80;
+}
+
+.manual-add form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.manual-add label {
+  font-weight: bold;
+  color: #005f99;
+}
+
+.manual-add input,
+.manual-add select {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.error {
+  color: #c00;
+  margin-bottom: 1rem;
+}

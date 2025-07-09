@@ -1,0 +1,75 @@
+.page-container h2 {
+  text-align: center;
+  color: #003366;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.intro {
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  text-align: center;
+  color: #333;
+  line-height: 1.6;
+}
+
+.team-section,
+.values-section {
+  margin-bottom: 2.5rem;
+}
+
+.team-section h3,
+.values-section h3 {
+  color: #005f99;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.team-grid {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.team-member {
+  background: #ffffff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  width: 180px;
+  text-align: center;
+}
+
+.team-member img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 0.75rem;
+}
+
+.team-member h4 {
+  margin: 0.5rem 0 0.25rem;
+  color: #003366;
+}
+
+.team-member p {
+  margin: 0;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.values-section ul {
+  max-width: 600px;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+}
+
+.values-section li {
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}

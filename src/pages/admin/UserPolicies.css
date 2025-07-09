@@ -1,0 +1,103 @@
+.user-policies-page h2 {
+  color: #003366;
+  margin-bottom: 1rem;
+}
+
+.select-client {
+  margin-bottom: 1.5rem;
+}
+
+.select-client label {
+  font-weight: bold;
+  color: #005f99;
+  margin-right: 0.5rem;
+}
+
+.select-client select {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.existing-policies,
+.add-policy {
+  background: white;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.policies-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.5rem;
+}
+
+.policies-table th,
+.policies-table td {
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.policies-table th {
+  background-color: #005f99;
+  color: white;
+}
+
+.policies-table button {
+  background: #c00;
+  color: white;
+  border: none;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.policies-table button:hover {
+  background: #a00;
+}
+
+.add-policy-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem 2rem;
+}
+
+.add-policy-form label {
+  font-weight: bold;
+  color: #005f99;
+}
+
+.add-policy-form input,
+.add-policy-form textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.add-policy-form textarea {
+  resize: vertical;
+}
+
+.add-policy-form button {
+  grid-column: span 2;
+  padding: 0.75rem;
+  background: #005f99;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.add-policy-form button:hover {
+  background: #004f80;
+}
+
+.error {
+  color: #c00;
+  margin-bottom: 1rem;
+}

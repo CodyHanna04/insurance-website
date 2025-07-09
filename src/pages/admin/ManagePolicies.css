@@ -1,0 +1,36 @@
+.manage-policies-page h2 {
+  color: #003366;
+  margin-bottom: 1rem;
+}
+
+.policy-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.policy-table th,
+.policy-table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.policy-table th {
+  background-color: #005f99;
+  color: white;
+}
+
+.policy-table button {
+  margin-right: 0.5rem;
+  padding: 0.3rem 0.6rem;
+  background-color: #005f99;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.policy-table button:hover {
+  background-color: #004f80;
+}

@@ -1,0 +1,21 @@
+.clients-page h2 {
+  color: #003366;
+  margin-bottom: 1rem;
+}
+
+.clients-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.clients-table th,
+.clients-table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.clients-table th {
+  background-color: #005f99;
+  color: white;
+}
