@@ -13,7 +13,7 @@ export default function AdminHeader() {
         <div className="logo">Peace of Mind Insurance</div>
         <nav>
           <ul className="nav-list">
-            <li><NavLink to="/admin-dashboard" className="nav-link">Dashboard</NavLink></li>
+            <li><NavLink to="/admin-dashboard" end className="nav-link">Dashboard</NavLink></li>
             <li><NavLink to="/admin-dashboard/manage-policies" className="nav-link">Manage Policies</NavLink></li>
             <li><NavLink to="/admin-dashboard/clients" className="nav-link">Clients</NavLink></li>
             <li><NavLink to="/admin-dashboard/user-policies" className="nav-link">User Policies</NavLink></li>

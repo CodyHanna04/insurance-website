@@ -1,5 +1,4 @@
 import './About.css';
-import teamPhoto from '../assets/react.svg'; // replace with an actual photo later
 
 export default function About() {
   return (
@@ -15,18 +14,18 @@ export default function About() {
         <h3>Meet Our Team</h3>
         <div className="team-grid">
           <div className="team-member">
-            <img src={teamPhoto} alt="Jane Doe" />
+            <img src={"./fake-person1.jpg"} alt="Jane Doe" />
             <h4>Jane Doe</h4>
             <p>Founder &amp; Senior Advisor</p>
           </div>
           <div className="team-member">
-            <img src={teamPhoto} alt="John Smith" />
+            <img src={"/fake-person2.jpg"} alt="John Smith" />
             <h4>John Smith</h4>
             <p>Claims Specialist</p>
           </div>
           <div className="team-member">
-            <img src={teamPhoto} alt="Mary Johnson" />
-            <h4>Mary Johnson</h4>
+            <img src={"/fake-person3.jpg"} alt="Johnny Johnson" />
+            <h4>Johnny Johnson</h4>
             <p>Customer Support Lead</p>
           </div>
         </div>

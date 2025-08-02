@@ -1,3 +1,11 @@
+/* src/pages/StartPolicy.css */
+/* 1. Make all elements use border-box */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 .form-page {
   padding: 2rem;
   background-color: #f0f8ff;
@@ -11,18 +19,38 @@ h2 {
   margin-bottom: 1rem;
 }
 
+.error {
+  color: #c00;
+  margin-bottom: 1rem;
+}
+
+/* 2. Grid setup with auto rows and clear gap */
 .policy-form {
   max-width: 600px;
   margin: 0 auto;
-  background: white;
+  background: #fff;
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-auto-rows: auto;
+  gap: 1rem 2rem; /* row-gap: 1rem, column-gap: 2rem */
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group.full-width {
+  /* stretch across both columns */
+  grid-column: 1 / -1;
 }
 
 .policy-form label {
-  display: block;
-  margin-top: 1rem;
+  margin-bottom: 0.5rem;
   font-weight: bold;
   color: #005f99;
 }
@@ -32,23 +60,21 @@ h2 {
 .policy-form select {
   width: 100%;
   padding: 0.75rem;
-  margin-top: 0.3rem;
   border: 1px solid #ccc;
   border-radius: 6px;
   font-size: 1rem;
 }
 
 .policy-form button {
+  grid-column: 1 / -1;
   background-color: #005f99;
   color: white;
   padding: 1rem;
-  margin-top: 1.5rem;
-  width: 100%;
   font-size: 1.1rem;
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s ease;
 }
 
 .policy-form button:hover {
